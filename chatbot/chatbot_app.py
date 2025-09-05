@@ -17,7 +17,7 @@ from ai21.models.chat import ChatMessage
 # ---------------------------
 # Config (direct key)
 # ---------------------------
-AI21_API_KEY = "f07c26e6-195a-482d-86d2-3bfba5a3e8df".strip()  # ensure no trailing spaces/newlines
+AI21_API_KEY = "API_KEY".strip()  # ensure no trailing spaces/newlines
 if not AI21_API_KEY:
     raise RuntimeError("AI21_API_KEY not set")
 client = AI21Client(api_key=AI21_API_KEY)
@@ -245,3 +245,4 @@ def history():
 
 if __name__ == "__main__":
     app.run(host="127.0.0.1", port=5000, debug=True)
+
