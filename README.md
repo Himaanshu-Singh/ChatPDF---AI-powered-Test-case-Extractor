@@ -20,6 +20,8 @@ This application enables you to upload PDFs, extract text content, and generate 
 
 ---
 
+<img width="1640" height="804" alt="image" src="https://github.com/user-attachments/assets/66cbfc35-0cf4-4f56-920d-4b64201e4ee3" />
+
 ## 🛠️ Technology Stack  
 
 ### **Frontend**  
@@ -226,4 +228,3 @@ ai-qa-chatbot/
 * [React Community](https://react.dev/) for docs and ecosystem
 * [Flask](https://flask.palletsprojects.com/) for the backend framework
 
-```
